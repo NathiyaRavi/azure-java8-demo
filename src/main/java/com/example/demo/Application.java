@@ -10,7 +10,7 @@ public class Application {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from Java 8 app running on Azure App Service!";
+        return "Hello from Java 8 app running on Azure App Service!  ";
     }
 
     public static void main(String[] args) {
